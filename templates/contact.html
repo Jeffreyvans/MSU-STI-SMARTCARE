@@ -1,0 +1,31 @@
+{% extends "basic.html" %}
+{% load static %}
+
+{% block body %}
+<div class="container">
+  <h1 class="text-center mb-4">📞 Contact Us</h1>
+  <div class="row">
+    <div class="col-md-6">
+      <h4>Get in Touch</h4>
+      <p>Email: <a href="mailto:vanhuvaonejeffrey@gmail.com">vanhuvaonejeffrey@gmail.com</a></p>
+      <p>Phone: +263 774 573 765</p>
+      <p>Address: Harare, Zimbabwe</p>
+    </div>
+    <div class="col-md-6">
+      <h4>Send a Message</h4>
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button class="btn btn-primary btn-block">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
